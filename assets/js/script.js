@@ -7,7 +7,7 @@ var currentDateElement = document.getElementById('current-date');
 var dateSelector = document.getElementById('date-selector');
 
 // Current date
-var today = dayjs().format('YYYY-MM-DD');
+var today = dayjs().subtract(1, 'day').format('YYYY-MM-DD');
 
 // Set MAX attribute of the date selector
 // API only has images available for past dates, not future
