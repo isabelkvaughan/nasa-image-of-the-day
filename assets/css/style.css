@@ -1,0 +1,100 @@
+/* Set default font and color */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style header section */
+.hero {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+/* Style main section */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+
+#select-date {
+  padding: 20px;
+}
+
+#current-date {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#date-selector {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#display-image {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+#display-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#display-image p {
+  padding-top: 2%;
+  padding-right: 5%;
+}
+
+footer {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: #333;
+}
+
+@media screen and (min-width: 768px) {
+  /* for devices with minimum width 768px (tablets and desktop) */
+  #display-image {
+    text-align: left;
+  }
+}
