@@ -31,7 +31,7 @@ As the NASA API is run from USA, this application has to run one day behind, due
 
 ## Credit
 
-This applciation uses the NASA API: [api.nasa.gov/](https://api.nasa.gov/)
+This applciation uses the NASA API: [api.nasa.gov](https://api.nasa.gov/)
 
 ## Installation & Links
 
