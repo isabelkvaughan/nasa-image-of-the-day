@@ -15,7 +15,7 @@ SO THAT I have a valuable resource for learning and exploring astronomy.
 
 ## Acceptance Criteria
 
-GIVEN when I open the applciation, and see the latest Image Of The Day, with the title, image and a brief blurb about the image. 
+GIVEN when I open the application, and see the latest Image Of The Day, with the title, image and a brief blurb about the image. 
 THEN I can use a date selector to choose any past date
 THEN I will be presented with the update title, image and blurb for that chosen image. 
 
